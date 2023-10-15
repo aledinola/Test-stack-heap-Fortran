@@ -1,9 +1,11 @@
 # Test-stack-heap-Fortran
-Problem: sometimes when using ifort in Windows, you get a stack overflow.
+Problem: sometimes when using ifort in Windows, you get a **stack overflow**.
 Assuming that the code is correct, there are two possible ways of fixing this problem that I know of:
+
 (1) Put all arrays on the heap (but the code may become slower)
+
 (2) Increase the size of the stack
-The program test.f90 provides a simple test of this issue
+The program **main_test_mask.f90** provides a simple test of this issue
 
 Given n1=3000, n2=1000, if you compile with 
 
