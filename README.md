@@ -5,7 +5,10 @@ Assuming that the code is correct, there are two possible ways of fixing this pr
 (1) Put all arrays on the heap (but the code may become slower)
 
 (2) Increase the size of the stack
+
 The program **main_test_mask.f90** provides a simple test of this issue
+
+---------------------------------------------------------------------
 
 Given n1=3000, n2=1000, if you compile with 
 
