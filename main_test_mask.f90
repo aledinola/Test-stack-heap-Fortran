@@ -7,6 +7,7 @@
 ! ifort -o run_win.exe main_test_mask.f90 /heap-arrays0
 ! (2) INCREASE SIZE OF THE STACK
 ! ifort -o run_win.exe main_test_mask.f90 -link -stack:2147483647
+! Try also these flags: -static -F10000000
 ! Both works on Windows, which is best for performance? 
 ! Probably (2)
     
